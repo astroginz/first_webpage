@@ -4,14 +4,72 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My First Website on GitHub</title>
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+		
+		article {
+			width: 700px;
+			margin:auto;
+			padding: 20px;
+			background-color: rgb(222, 238, 248);
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		h1, h2 {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: cornflowerblue;
+			color: #f4f5d6;
+			padding: 10px;
+			text-transform: uppercase;
+			margin-top: 3em;
+		}
+
+		h1 {
+			margin-top: 0;
+		}
+
+		p {
+			line-height: 1.5em;
+		}
+
+	</style>
+
 </head>
 <body>
-	<h1>First Webpage on GitHub</h1>
+	<article>
+	<h1>Hi, I’m astroginz!</h1>
 
-	<p>I'm learning about web development. This is my first webpage on GitHub</p>
+	<p>
+		Welcome to my page! The name "astroginz" reflects my interests in science and technology, and it’s also a nod to my very first pet—a guinea pig named Ginz. After 25 years in the corporate world, I’ve decided to step out of my comfort zone, try something completely new, and learn web development. This page marks the starting point of my adventure and is my very first webpage on GitHub. Thanks for stopping by!
+	</p>
 
-	<p>This summer I adopted a swan family with four cygnets. They are adorable.</p>
-	<img src="cygnet_1.jpeg" alt="cygnet on lake">
+	<nav>
+		<ul>
+			<li><a href="#city">Where I live</a></li>
+			<li><a href="#interest">My interests</a></li>
+		</ul>
+	</nav>
+
+	<section id="city">
+		<h2>Welcome to My Slice of Zurich</h2>
+
+		<p>I feel very fortunate to call Switzerland home, and even more so to live in the beautiful city of Zurich. My apartment is just a five-minute stroll from Lake Zurich, a place that holds a special spot in my daily routine. I love starting my mornings with a peaceful stroll along the water, sometimes pausing to take a little photo.</p>
+
+		<img src="images/zurich_1.jpeg" alt="zurich with swan" style="width: 300px; height: auto;">
+	</section>
+
+	<section id="interest">
+		<h2>A Passion for Photography</h2>
+
+		<p>
+			I enjoy capturing moments with my phone, and this summer was especially memorable. I had the chance to meet a mother swan and her four cygnets on the lake in my neighborhood — they were absolutely adorable! Their grace and charm inspired me to document their story through my photos.</p>
+
+		<img src="images/cygnet_1.jpeg" alt="cygnet on lake" style="width: 300px; height: auto;">
+	</section>
+
+</article>
 	
 </body>
 </html>
