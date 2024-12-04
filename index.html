@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="My first webpage exploring Zurich, photography, and volunteering.">
-	<meta name="keywords" content="Zurich, photography, volunteering, astroginz, personal webpage">
+	<meta name="keywords" content="Zurich, photography, volunteering, personal webpage">
 	<meta name="author" content="astroginz">
 	<title>My First Website on GitHub</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
 	
 </head>
@@ -17,26 +18,25 @@
 		
 		<section class="flex-container">
 			<p>
-				Welcome to my page! The name <strong>astroginz</strong> is a reflection of my love for science and technology, as well as a tribute to my very first pet, a guinea pig named Ginz. After 25 years in the corporate world, I’ve decided to embrace a new challenge: stepping into the world of web development. This page is the starting point of that exciting new journey and also happens to be my very first creation on GitHub. Thanks for stopping by!
+				Welcome to my page! The name <strong>astroginz</strong> is a reflection of my love for science and technology, as well as a tribute to my very first pet, a guinea pig named Ginz. After 25 years in the corporate world, I’ve decided to embrace a new challenge: stepping into the world of web development. This page is the starting point of that exciting new journey and also happens to be my very first creation on <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>. Thanks for stopping by!
 			</p>
 			
-			<img src="images/astroginz_logo.png" alt="astroginz logo" style="width: auto; height: 150px;">
+			<img src="images/astroginz_logo.png" alt="astroginz logo" class="logo-img">
 			
 		</section>
-		
 		
 		<nav>
 			<ul>
 				<li><a href="#city">My city</a></li>
 				<li><a href="#interest">My interests</a></li>
 				<li><a href="#volunteering">My volunteering</a></li>
+				<li><a href="#readinglist">My reading pipeline</a></li>
 			</ul>
 		</nav>
-
 		
 		<section id="city">
 			<h2>Welcome to My Slice of Zurich</h2>
-
+			
 			<p> 
 				I feel incredibly lucky to call Switzerland home, especially in the beautiful city of <a href="https://en.wikipedia.org/wiki/Zurich" target="_blank" rel="noopener noreferrer">Zurich</a>. My apartment is just a stone's throw from <a href="https://en.wikipedia.org/wiki/Lake_Zurich" target="_blank" rel="noopener noreferrer">Lake Zurich</a>, a spot that has become a part of my daily routine. I love starting my mornings with a peaceful stroll along the water, often taking a moment to snap a photo and soak in the tranquility. 
 			</p>
@@ -44,7 +44,7 @@
 			<img src="images/zurich_1.jpeg" alt="zurich with swan">
 			
 			<p>
-				<a href="#topofpage">Back to top of page</a>
+				<a href="#topofpage">Return to the top</a>
 			</p>
 			
 		</section>
@@ -77,7 +77,7 @@
 				<img src="images/street_art_1.jpeg" alt="invader mosaic">
 				
 				<p>
-					<a href="#topofpage">Back to top of page</a>
+					<a href="#topofpage">Return to the top</a>
 				</p>
 				
 			</section>
@@ -87,10 +87,9 @@
 				
 				<div style="display: flex; align-items: center; gap: 30px;" class="flex-container">
 					
-					<img src="images/Wikipedia-logo-v2.svg" alt="Wikipedia logo" style="width: auto; height: 150px;">
+					<img src="images/Wikipedia-logo-v2.svg" alt="Wikipedia logo" class="wiki-logo">
 					
 					<div>
-						
 						<p>
 							I’ve been a regular <a href="https://en.wikipedia.org/wiki/Wikipedia" target="_blank" rel="noopener noreferrer">Wikipedia</a> user for over a decade. The platform’s principles of peer collaboration, built on constructive dissent and mutual respect, deeply resonate with me. In the spirit of open and accessible knowledge, I aim to contribute in my own small way to making information verifiable and available to all.
 						</p>
@@ -98,15 +97,42 @@
 						<p>
 							With a background in STEM, I’m naturally curious about the “why” and “how” of things. Lately, I’ve been exploring topics like <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener noreferrer">artificial intelligence</a>, <a href="https://en.wikipedia.org/wiki/Algorithmic_bias" target="_blank" rel="noopener noreferrer">algorithmic biases</a>, <a href="https://en.wikipedia.org/wiki/Ethics_of_artificial_intelligence" target="_blank" rel="noopener noreferrer">ethics of artificial intelligence</a>, <a href="https://en.wikipedia.org/wiki/Behavioural_sciences" target="_blank" rel="noopener noreferrer">behavioral science</a>, <a href="https://en.wikipedia.org/wiki/Renewable_energy" target="_blank" rel="noopener noreferrer">renewable energy</a>, and sharpening my skills in editing and <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener noreferrer">web development</a>.
 						</p>
-						
 					</div>
 					
 				</div>
 				
 				<p>
-					<a href="#topofpage">Back to top of page</a>
+					<a href="#topofpage">Return to the top</a>
 				</p>
 				
+			</section>
+			
+			<section id="readinglist">
+				<h2>What I’m Reading Next</h2>
+				<p>Reading is a way for me to slow down, and reflect. Right now, I’ve got a few books on my list that I’m excited to dive into:</p>
+				
+				<ul>
+					<li>
+						<div class="book-entry">
+							<p><strong>"A Journey Home"</strong> by <a href="https://www.iratyde.com" target="_blank" rel="noopener noreferrer">Ira Tyde</a></p>
+							<p>A debut novel about self-discovery and belonging—it’s at the top of my holiday reading list.</p>
+						</div>
+					</li>
+					<li>
+						<div class="book-entry">
+							<p><strong>"Freedom"</strong> by <a href="https://en.wikipedia.org/wiki/Angela_Merkel" target="_blank" rel="noopener noreferrer">Angela Merkel</a></p>
+							<p>I’ve always admired Angela Merkel’s calm and steady leadership. I’m looking forward to her memoir and the behind-the-scenes stories of her challenges and triumphs.</p>
+						</div>
+					</li>
+					<li>
+						<div class="book-entry">
+							<p><strong>"Becoming"</strong> by <a href="https://en.wikipedia.org/wiki/Michelle_Obama" target="_blank" rel="noopener noreferrer">Michelle Obama</a></p>
+							<p>Watching the Netflix documentary about Michelle Obama's tour sparked my interest in her story. It’s a nice way to enjoy some quality "me time".</p>
+						</div>
+					</li>
+				</ul>
+				
+				<p><a href="#topofpage">Return to the top</a></p>
 			</section>
 			
 		</article>
