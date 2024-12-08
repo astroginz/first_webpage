@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: rgb(70, 70, 70);
+    color: rgb(80, 80, 80);
 }
 
 /* Article Section */
@@ -128,7 +128,7 @@ img {
 
 /* Footer Styles */
 footer {
-    background-color: hsl(71, 8%, 74%); 
+    background-color: hsl(71, 8%, 80%); 
     color: #333;
     text-align: center;
     padding: 10px;
