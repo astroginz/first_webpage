@@ -8,7 +8,10 @@
 	<meta name="author" content="astroginz">
 	<title>My First Website on GitHub</title>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" defer></script>
+	<link href="styles.css" rel="stylesheet">
+	<script src="script.js" defer></script>
 	
 </head>
 <body>
@@ -74,15 +77,19 @@
 				<img src="images/festival_2.jpeg" alt="alpine village">
 			</div>		
 			
-			<h3>Street Art</h3>
-			<p>
-				One of my favorite street artists is <a href="https://en.wikipedia.org/wiki/Invader_(artist)" target="_blank" rel="noopener noreferrer">Invader</a>. It’s always exciting to discover his mosaics here in Switzerland. Invader, a French artist, is known for his tile creations inspired by 8-bit video games, especially <a href="https://en.wikipedia.org/wiki/Space_Invaders" target="_blank" rel="noopener noreferrer">Space Invaders</a>. Since the 1990s, his colorful pieces have appeared on walls and public spaces around the world, adding an unexpected bit of joy to my day whenever I spot one.
-			</p>
+			<section id="street-art">
+				<h3>Street Art</h3>
+				<p>
+					One of my favorite street artists is <a href="https://en.wikipedia.org/wiki/Invader_(artist)" target="_blank" rel="noopener noreferrer">Invader</a>. It’s always exciting to discover his mosaics here in Switzerland. Invader, a French artist, is known for his tile creations inspired by 8-bit video games, especially <a href="https://en.wikipedia.org/wiki/Space_Invaders" target="_blank" rel="noopener noreferrer">Space Invaders</a>. Since the 1990s, his colorful pieces have appeared on walls and public spaces around the world, adding an unexpected bit of joy to my day whenever I spot one.
+				</p>
+				<div class="image-container">
+					<img src="images/invader_1.jpeg" alt="invader basel 1">
+					<img src="images/invader_2.jpeg" alt="invader basel 2"> 
+				</div> 	
+				
+			</section>
 			
-			<div class="image-container">
-				<img src="images/invader_1.jpeg" alt="invader basel 1">
-				<img src="images/invader_2.jpeg" alt="invader basel 2"> 
-			</div>	
+			<p><a href="invader.html" target="_blank" rel="noopener noreferrer" class="invader-toggle"> More invaders in Switzerland ...</a></p>
 			
 			<p>
 				<a href="#topofpage" class="return-to-top">Return to the top</a>
@@ -95,9 +102,7 @@
 			
 			<div style="display: flex; align-items: center; gap: 30px;" class="flex-container">
 				
-				<!-- <div id="wiki-logo"> -->
-					<img src="images/Wikipedia-logo-v2.svg" alt="Wikipedia logo" class="wiki-logo">
-				<!-- </div> -->
+				<img src="images/Wikipedia-logo-v2.svg" alt="Wikipedia logo" class="wiki-logo">
 				
 				<div>
 					<p>

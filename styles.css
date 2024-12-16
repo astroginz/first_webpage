@@ -145,6 +145,80 @@ footer #footer {
     margin: 10px 0;
 }
 
+/* Slider Styles */
+/********** Slider Styles ***********/
+#slider {
+	width: 380px;
+    height: 490px;
+	overflow: hidden;
+	border: 10px solid #4C4C4C;
+	position:relative;
+	margin:auto;
+}
+
+#slider ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+#slider ul li {
+    width: auto;
+    flex: none;
+}
+
+#slider ul li img {
+    width: 380px;
+    height: 490px;
+    object-fit: cover;
+    display: block; 
+}
+
+/********** Link Styles ***********/
+#links {
+	width: 380px;
+	display: flex;
+	margin: 0 auto;
+}
+
+#links a {
+	display:block;
+	width: 380px;
+    background: #891012;
+	height:50px;
+	line-height:50px;
+	color:#D5D5D5;
+	text-decoration:none;
+	font-family:Arial;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#links a:hover {
+	background: #6c0204;
+	color:#fff;
+}
+/* End Slider Styles */
+
+/* Invader Toggle */
+.invader-toggle {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(190, 99, 73);
+    text-align: right;
+    padding-right: 20px;
+}
+
+.invader-toggle:hover {
+    text-decoration: underline;
+    color: rgb(150, 79, 59);
+} 
+
 /* Reading List Styles */
 #readinglist ul {
     list-style: none;
