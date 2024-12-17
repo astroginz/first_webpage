@@ -3,33 +3,45 @@
 
 <head>
 	<meta charset="UTF-8">
+
+	<!-- necessary for mobile browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Invader in Switzerland</title>
 	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-	<link href="styles.css" rel="stylesheet">
+	<link href="styles_invader.css" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" defer></script>
 	
-	<script src="script.js" defer></script>
+	<script src="script_invader.js" defer></script>
 	
 </head>
 
 <body>
 	<article>
 		<h2 style="margin-top: 0;">Invader in Switzerland</h2>
-		<div id="slider">
-			<ul>
-				<li><img src="images/invader_3.jpeg" alt="slideshow image"></li>
-				<li><img src="images/invader_4.jpeg" alt="slideshow image"></li>
-				<li><img src="images/invader_5.jpeg" alt="slideshow image"></li>
-				<li><img src="images/invader_6.jpeg" alt="slideshow image"></li>
-				<li><img src="images/invader_1.jpeg" alt="slideshow image"></li>
-				<li><img src="images/invader_2.jpeg" alt="slideshow image"></li>
-			</ul>
+
+		<p>
+			Scavenger hunting for Invader's mosaics has become a fun ritual whenever I visit a new city. Discovering his work in <a href="https://en.wikipedia.org/wiki/Basel" target="_blank" rel="noopener noreferrer">Basel</a> has been especially rewarding. The pieces I’ve come across are well-preserved and add a colorful touch to the city’s character. There’s a quiet joy in spotting these bursts of creativity, tucked away in plain sight throughout the city.
+		</p>
+		<div id="slider-wrapper">
+			<div id="slider">
+				<ul>
+					<li><img src="images/invader_3.jpeg" alt="slideshow image"></li>
+					<li><img src="images/invader_4.jpeg" alt="slideshow image"></li>
+					<li><img src="images/invader_5.jpeg" alt="slideshow image"></li>
+					<li><img src="images/invader_6.jpeg" alt="slideshow image"></li>
+					<li><img src="images/invader_1.jpeg" alt="slideshow image"></li>
+					<li><img src="images/invader_2.jpeg" alt="slideshow image"></li>
+				</ul>
+			</div>
+			<div id="links">
+				<a href="#" id="previous">previous</a>
+				<a href="#" id="next">next</a>
+			</div>
 		</div>
-		
-		<p id="links"><a href="#" id="previous">previous</a><a href="#" id="next">next</a></p>
 		
 		<p><a href="index.html#street-art" class="invader-toggle"> Return to Street Art ...</a></p>
 		

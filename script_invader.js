@@ -10,6 +10,7 @@ $(window).on("load", function(){
 
     $("#slider ul").css("width", `${totalWidth}px`);
 
+    /* Comment: 326 is the hard coding of the width of the image */
     $("#next").click( function() {
         counter++;
 
@@ -20,9 +21,9 @@ $(window).on("load", function(){
 
             leftPosition = `${-totalWidth}px`;                 
       
-             $("#slider ul").last().animate( { left: "0px" }, 380, "easeInQuad" );
+             $("#slider ul").last().animate( { left: "0px" }, 326, "easeInQuad" );
 
-             $("#slider ul").first().animate( { left: leftPosition }, 380, "easeInQuad", function() {
+             $("#slider ul").first().animate( { left: leftPosition }, 326, "easeInQuad", function() {
                 $("#slider ul").first().remove(); 
             } ); 
  
@@ -31,8 +32,7 @@ $(window).on("load", function(){
         else {
 
             leftPosition = `${-counter * imageWidth}px`;
-            $("#slider ul").animate( {left: leftPosition}, 380, "easeInQuad" );
-
+            $("#slider ul").animate( {left: leftPosition}, 326, "easeInQuad" );
         }
     });
 
@@ -47,17 +47,15 @@ $(window).on("load", function(){
 
             leftPosition = `${-counter * imageWidth}px`;                 
       
-             $("#slider ul").last().animate( { left: leftPosition }, 380, "easeInQuad" );
-             $("#slider ul").first().animate( { left: `${imageWidth}px` }, 380, "easeInQuad", function() {
+             $("#slider ul").last().animate( { left: leftPosition }, 326, "easeInQuad" );
+             $("#slider ul").first().animate( { left: `${imageWidth}px` }, 326, "easeInQuad", function() {
                 $("#slider ul").first().remove(); 
             } ); 
-
         }
         else {
 
             leftPosition = `${-counter * imageWidth}px`;
-            $("#slider ul").animate( {left: leftPosition}, 380, "easeInQuad" );
+            $("#slider ul").animate( {left: leftPosition}, 326, "easeInQuad" );
         }
     });
-
 });
