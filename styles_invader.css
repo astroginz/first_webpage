@@ -53,7 +53,7 @@ article .flex-container {
 	width: 326px;
     height: 420px;
 	overflow: hidden;
-	border: 5px solid #4C4C4C;
+	border: 1px solid black;
 	position:relative;
 	margin: auto;
     padding: 10px;
